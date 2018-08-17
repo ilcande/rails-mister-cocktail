@@ -21,6 +21,9 @@
       </p>
     </div>
 
+    <%= cl_image_tag(@cocktail.photo, height: 300, width: 400, crop: :fill) %>
+
+
     <div class="dose"><%= simple_form_for [@cocktail, @dose] do |f| %>
         <% if @dose.errors.any? %>
           <div class="errors-container">

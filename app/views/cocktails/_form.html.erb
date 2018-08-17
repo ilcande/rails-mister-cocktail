@@ -12,6 +12,10 @@
   <div class="form-inputs">
     <%= f.input :name %>
   </div>
+  <!-- this first command is for the user to upload -->
+  <%= f.input :photo %>
+  <!-- this is just for the developer -->
+  <%= f.input :photo_cache, as: :hidden %>
 
   <div class="form-actions">
     <%= f.button :submit %>
