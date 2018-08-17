@@ -1,32 +1,32 @@
 
 
-.name {
-  letter-spacing: 5px;
-  word-spacing: 4px;
-  text-align: center;
-  font-size: 6rem;
-  color: whitesmoke;
-  font-weight: bold;
-  font-family: Verdana, sans-serif;
-  text-shadow: -1px -1px 1px #aaa,
-               0px 4px 1px rgba(0,0,0,0.5),
-               4px 4px 5px rgba(0,0,0,0.7),
-               0px 0px 7px rgba(0,0,0,0.4);
-}
+// .name {
+//   letter-spacing: 5px;
+//   word-spacing: 4px;
+//   text-align: center;
+//   font-size: 6rem;
+//   color: whitesmoke;
+//   font-weight: bold;
+//   font-family: Verdana, sans-serif;
+//   text-shadow: -1px -1px 1px #aaa,
+//                0px 4px 1px rgba(0,0,0,0.5),
+//                4px 4px 5px rgba(0,0,0,0.7),
+//                0px 0px 7px rgba(0,0,0,0.4);
+// }
 
 .buttons {
   display: flex;
   justify-content: space-between;
 }
 
-.details {
-  background-color: white;
-  width: 700px;
-  border-shadow: 10px 10px 5px;
-  padding: 25px;
-  margin: 25px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-}
+// .details {
+//   background-color: white;
+//   width: 700px;
+//   border-shadow: 10px 10px 5px;
+//   padding: 25px;
+//   margin: 25px;
+//   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+// }
 
 .card {
   height: 600px;
