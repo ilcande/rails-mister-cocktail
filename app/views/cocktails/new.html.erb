@@ -1,5 +1,15 @@
-<h1>New Cocktail</h1>
+<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('<%= image_path("photo-1531387367216-681093c0279b.jpeg") %>')">
+  <div class="banner-content">
+    <h1>New Cocktail</h1>
+    <p>Add your favourite cocktail to the list</p>
+      <div class="mid-container">
+        <%= render 'form', cocktail: @cocktail %>
+      </div>
 
-<%= render 'form', cocktail: @cocktail %>
+      <br>
+      <br>
+      <br>
 
-<%= link_to 'Back', cocktails_path, class: "btn btn-danger btn-xs"  %>
+      <%= link_to 'Back', cocktails_path, class: "btn btn-danger btn-xs"  %>
+  </div>
+</div>
